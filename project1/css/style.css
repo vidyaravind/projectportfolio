@@ -5,19 +5,19 @@ body {
   	font-weight: 300;
 }
 
-.text-muted{
+.text-muted {
 	color: #BCBBBB;
 }
 
-.text-thin{
+.text-thin {
 	font-weight: 100;
 }
 
-.title-super{
+.title-super {
 	font-size: 50px;
 }
 
-.title-logo{
+.title-logo {
 	margin: auto;
 	font-size: 50px;
 }
