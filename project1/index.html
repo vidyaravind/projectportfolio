@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>My Portfolio</title>
-    <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet' >
+    <link href='http://fonts.googleapis.com/css?family=Lato:100,300' rel='stylesheet'>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <script type="text/javascript" src="js/jquery-2.1.4.min/index.js"></script>
@@ -14,13 +14,15 @@
 <body>
 <div class="container">
     <div class="row">
-        <div class="col-md-6">
-            <img class="title-logo" src="images/logo.png" alt="logo">
-        </div>
-        <div class="col-md-6 text-right text-uppercase">
-            <h1 class="title-super">Vidya Aravind</h1>
-            <h4>Front end Developer</h4>
-        </div>
+        <header>
+            <div class="col-md-6">
+                <img class="title-logo" src="images/logo.png" alt="logo">
+            </div>
+            <div class="col-md-6 text-right text-uppercase">
+                <h1 class="text-thin">Vidya Aravind</h1>
+                <h4>Front End Developer</h4>
+            </div>
+        </header>
     </div>
     <div class="row">
         <div class="col-md-12">
@@ -34,35 +36,43 @@
         </div>
     </div>
     <div class="row">
-        <h2 class="text-muted text-centered">Featured Work</h2>
+         <div class="col-md-12">
+            <h2 class="text-muted">Featured Work</h2>
+        </div>
     </div>
-    <div class="row,text-centered">
+    <div class="row text-centered">
         <div class="col-md-4">
-            <img class="img-responsive" src="images/flower1.jpeg" data-toggle="modal" data-target="#project2" alt="This is placeholder for project2">
+            <img class="img-responsive" src="images/flower1.jpeg" data-toggle="modal" data-target="#project2"
+                 alt="This is placeholder for project2">
+
             <h3 class="text-uppercase">Project1</h3>
             <a href="https://github.com/vidyaravind/project1">https://github.com/vidyaravind/project1</a>
         </div>
         <div class="col-md-4">
-            <img class="img-responsive" src="images/flower3.jpeg" data-toggle="modal" data-target="#project3" alt="This is placeholder for project3">
+            <img class="img-responsive" src="images/flower3.jpeg" data-toggle="modal" data-target="#project3"
+                 alt="This is placeholder for project3">
+
             <h3 class="text-uppercase">Project2</h3>
             <a href="https://github.com/vidyaravind/project2">https://github.com/vidyaravind/project2</a>
         </div>
         <div class="col-md-4">
-            <img class="img-responsive" src="images/flower4.jpeg" data-toggle="modal" data-target="#project4" alt="This is placeholder for project4">
+            <img class="img-responsive" src="images/flower4.jpeg" data-toggle="modal" data-target="#project4"
+                 alt="This is placeholder for project4">
+
             <h3 class="text-uppercase">Project3</h3>
             <a href="https://github.com/vidyaravind/project3">https://github.com/vidyaravind/project3</a>
         </div>
     </div>
 </div>
-<!-- Modal -->
 <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
-                <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+                <h4 class="modal-title" id="myModalLabel">Project Portfolio</h4>
             </div>
             <div class="modal-body">
                 <img class="img-responsive" src="images/image1.jpeg" alt="blue image">
+
                 <p class="text-right">This is new project</p>
             </div>
             <div class="modal-footer">
@@ -78,7 +88,8 @@
                 <h4 class="modal-title" id="myModalLabel2">Project Portfolio</h4>
             </div>
             <div class="modal-body">
-                <img class="img-responsive" src="images/flower1.jpeg"  alt="flower1">
+                <img class="img-responsive" src="images/flower1.jpeg" alt="flower1">
+
                 <p class="text-right">This is project1</p>
             </div>
             <div class="modal-footer">
@@ -94,7 +105,9 @@
                 <h4 class="modal-title" id="myModalLabel3">Project Portfolio</h4>
             </div>
             <div class="modal-body">
-                <img class="img-responsive" src="images/flower3.jpeg"  alt="flower3">
+                <figure>
+                    <img class="img-responsive" src="images/flower3.jpeg" alt="flower3">
+                </figure>
                 <p class="text-right">This is project2</p>
             </div>
             <div class="modal-footer">
@@ -110,7 +123,10 @@
                 <h4 class="modal-title" id="myModalLabel4">Project Portfolio</h4>
             </div>
             <div class="modal-body">
-                <img class="img-responsive" src="images/flower4.jpeg"  alt="flower4">
+                <figure>
+                    <img class="img-responsive" src="images/flower4.jpeg" alt="flower4">
+                    <figcaption>This is the flower4</figcaption>
+                </figure>
                 <p class="text-right">This is project3</p>
             </div>
             <div class="modal-footer">
@@ -120,6 +136,4 @@
     </div>
 </div>
 </body>
-</html>
-
-
+</html> 
